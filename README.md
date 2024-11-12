@@ -25,7 +25,7 @@ $parameter5 = "static_value"; // Static parameter
 $ipclient = $_SERVER['REMOTE_ADDR']; // Client IP
 ```
 ### Usage
-1. Set up Jenkins Token: Generate a Jenkins token linked to the job or pipeline.
+1. Setup Jenkins Token: Generate a Jenkins token linked to the job or pipeline.
 2. Configure Parameters: Replace dynamic parameters (e.g., parameter1, parameter2) with values as needed. Set any static parameters in the script directly.
 3. Deploy the Script: Host the PHP script on your server.
 4. Trigger Builds: Access the PHP script via URL, appending the required GET parameters.
